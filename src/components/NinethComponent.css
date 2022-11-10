@@ -1,0 +1,14 @@
+.nine {
+  display: flex;
+  background-color: #777171a4;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.img-nine {
+  width: 70%;
+  margin-left: auto;
+}
+.text-nine {
+  font-size: 50px;
+  width: 90%;
+}

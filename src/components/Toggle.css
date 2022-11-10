@@ -1,0 +1,11 @@
+.appBar {
+  position: relative;
+  width: 100px;
+  color: aliceblue;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.toggle {
+  position: absolute;
+}

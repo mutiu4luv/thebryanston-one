@@ -1,0 +1,17 @@
+.eight {
+  display: flex;
+  background-color: #777171a4;
+  width: 100%;
+}
+
+.img {
+  width: 60%;
+}
+.text-two {
+  font-size: 50px;
+  width: 40%;
+  text-align: center;
+  padding-left: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}

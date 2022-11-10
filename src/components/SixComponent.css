@@ -1,0 +1,18 @@
+.sixth {
+  display: flex;
+  background-color: #777171a4;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100vh;
+}
+.img {
+  height: 80vh;
+  margin-bottom: auto;
+  padding-bottom: 30px;
+}
+
+.img-two {
+  width: 50vw;
+  height: 60vh;
+  padding-top: 130px;
+}

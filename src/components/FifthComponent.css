@@ -1,0 +1,17 @@
+.component-five {
+  height: 100vh;
+  background-color: #777171a4;
+  padding-right: auto;
+  font-size: 50px;
+  display: block;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.img-five {
+  width: 70%;
+  padding-left: auto;
+}
+.text-five {
+  width: 70%;
+}
