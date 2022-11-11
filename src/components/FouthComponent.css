@@ -1,17 +1,103 @@
-.fouth-component {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  background-color: #777171a4;
+.gallery-div {
   width: 100%;
+  height: auto;
+  background: #f8f9fa;
 }
-.img-four {
-  width: 50%;
+.div-displ {
+  padding-top: 50px;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* justify-content: space-between; */
 }
-.text-four {
+.div-im {
+  width: 70%;
+}
+.img-fouth {
+  height: 100vh;
+  min-height: 100vh;
+  object-fit: contain;
+  animation-name: puyol;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  width: 60%;
+}
+@keyframes puyol {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+.limit-div {
   width: 30%;
-  text-align: center;
+
+  margin-right: 200px;
+  display: block;
   margin-top: auto;
-  font-size: 50px;
   margin-bottom: auto;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: flex-start;
+  font-size: larger;
+}
+
+@media (max-width: 700px) {
+  .div-displ {
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* justify-content: space-between; */
+  }
+  .div-im {
+    width: 100%;
+  }
+  .img-gel {
+    width: 100%;
+    /* object-fit: contain;
+    height: 50vh; */
+  }
+  .limit-div {
+    width: 100%;
+
+    display: block;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+
+    text-align: center;
+    align-items: center;
+    font-size: medium;
+  }
+  .limit-div h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 480px) {
+  .div-displ {
+    padding-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* justify-content: space-between; */
+  }
+  .limit-div {
+    margin-top: -105px;
+    margin-bottom: 0px;
+  }
+  .limit-div h2 {
+    font-size: medium;
+  }
+  .img-gel {
+    margin-top: -100px;
+    width: 100%;
+    /* object-fit: contain;
+    height: 50vh; */
+  }
 }

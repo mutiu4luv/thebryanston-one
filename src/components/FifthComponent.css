@@ -1,17 +1,66 @@
-.component-five {
-  height: 100vh;
-  background-color: #777171a4;
-  padding-right: auto;
-  font-size: 50px;
-  display: block;
-  flex-wrap: wrap;
-  width: 100%;
+/* .five-component {
+  width: 95.5%;
+  padding: 20px;
+  background: #f8f9fa;
 }
 
+.text-six {
+  padding-top: 30px;
+  width: 50%;
+  font-weight: 400;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  text-align: center;
+  align-items: flex-start;
+  font-size: 40pc;
+}
 .img-five {
   width: 70%;
-  padding-left: auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+
+  flex-wrap: wrap;
+} */
+
+.text-center-one {
+  padding: 30px;
 }
-.text-five {
-  width: 70%;
+
+.gel-div {
+  margin-top: 70px;
+  width: 100%;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+.div-img-div-div {
+  width: 60%;
+  margin-left: auto;
+}
+.imge-gel {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  animation-name: nchrys;
+  animation-iteration-count: unset;
+  /* animation-iteration-count: infinite; */
+  animation-direction: alternate;
+  animation-duration: 10s;
+}
+@keyframes nchrys {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .text-center {
+    font-size: medium;
+  }
 }

@@ -1,17 +1,38 @@
-import { Image } from "@chakra-ui/react";
-import React from "react";
-import "./FifthComponent.css";
-import pillow from "../Images/pillow.jpg";
+// import React from "react";
+// import pillow from "../Images/pillow.jpg";
+// import "./FifthComponent.css";
 
+// const FifthComponent = () => {
+//   return (
+//     <div className="five-component ">
+//       <div className="text-six">
+//         {" "}
+//         contemporary detailing with elegant aesthetics
+//       </div>
+//       <div>
+//         {" "}
+//         <img src={pillow} alt="jkb" className="img-five" />
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default FifthComponent;
+
+import React from "react";
+import pillow from "../Images/pillow.jpg";
+import "./FifthComponent.css";
+import { Container, Image } from "react-bootstrap";
 const FifthComponent = () => {
   return (
-    <div className="component-five">
-      <div className="text-five">
-        contemporary detailing with elegant aesthetics
-      </div>
+    <div className="gel-div">
       <div>
-        {" "}
-        <Image className="img-five" src={pillow} alt="hgf" />
+        <h3 className="text-center-one">
+          contemporary detailing with elegant aesthetics{" "}
+        </h3>
+        <div className="div-img-div-div">
+          <Image src={pillow} alt="jdn" className="imge-gel" />
+        </div>
       </div>
     </div>
   );

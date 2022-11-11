@@ -1,14 +1,108 @@
-.nine {
+.nine-div {
+  /* width: 100%; */
+  height: auto;
+  padding: 30px;
+  background: #f8f9fa;
+}
+
+.div-displayed {
+  padding-top: 50px;
   display: flex;
-  background-color: #777171a4;
-  width: 100%;
-  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* justify-content: space-between; */
 }
-.img-nine {
-  width: 70%;
-  margin-left: auto;
+/* 
+.img-fouth {
+  height: 100vh;
+  min-height: 100vh;
+  object-fit: contain;
+  animation-name: puyol;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  width: 60%;
+} */
+
+.img-ge {
+  width: 50vw;
 }
-.text-nine {
-  font-size: 50px;
-  width: 90%;
+
+@keyframes puyol {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+.limit-write {
+  width: 30%;
+
+  margin-right: 100px;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: larger;
+}
+
+@media (max-width: 700px) {
+  .div-displayed {
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* justify-content: space-between; */
+  }
+  .span-img {
+    width: 100%;
+  }
+  .img-ge {
+    width: 100%;
+    /* object-fit: contain;
+    height: 50vh; */
+  }
+  .limit-write {
+    width: 100%;
+
+    display: block;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+
+    text-align: center;
+    align-items: center;
+    font-size: medium;
+  }
+  .limit-write h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 480px) {
+  .div-displayed {
+    padding-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* justify-content: space-between; */
+  }
+  .limit-write {
+    margin-top: -105px;
+    margin-bottom: 0px;
+  }
+  .limit-write h2 {
+    font-size: medium;
+  }
+  .img-ge {
+    margin-top: -100px;
+    width: 100%;
+    /* object-fit: contain;
+    height: 50vh; */
+  }
 }
